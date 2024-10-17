@@ -34,6 +34,14 @@ helm repo update
 helm install ingress-nginx ingress-nginx/ingress-nginx
 ```
 
+OR 
+
+
+```bash
+minikube addons ingress
+minikube addons dns-ingress
+```
+
 ### 3. Deploy Votenirvan Helm Chart
 
 Run the following command to deploy the Votenirvan application using Helm:
