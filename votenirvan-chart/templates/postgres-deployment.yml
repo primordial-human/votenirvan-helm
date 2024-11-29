@@ -20,7 +20,7 @@ spec:
         image: postgres
         env:
         - name: POSTGRES_PASSWORD
-          value: samplepasswdnotreal #this code for referring
+          value: H@ckme@4444 
         ports:
         - containerPort: 5432
           name: http
